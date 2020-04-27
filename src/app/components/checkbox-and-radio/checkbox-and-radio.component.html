@@ -1,0 +1,32 @@
+<br>
+<mat-checkbox>
+  Check Me!
+</mat-checkbox>
+
+<br>
+
+<mat-checkbox labelPosition="before" color="primary" [(ngModel)]="checkBoxValue">
+  Check Me!
+</mat-checkbox>
+
+
+<br>
+<mat-radio-button>
+  I am a radio
+</mat-radio-button>
+
+<br>
+<mat-radio-button labelPosition="before" color="primary">
+  I am a radio
+</mat-radio-button>
+
+<br>
+<mat-radio-group [(ngModel)]="radioValue">
+  <mat-radio-button value="angular" color="warn">Angular</mat-radio-button>
+  <mat-radio-button value="react" color="primary">React</mat-radio-button>
+  <mat-radio-button value="vue" color="accent">Vue</mat-radio-button>
+</mat-radio-group>
+
+<br>
+{{checkBoxValue}}
+{{radioValue}}

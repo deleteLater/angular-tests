@@ -1,0 +1,8 @@
+<br>
+
+<mat-form-field>
+  <mat-label>Date</mat-label>
+  <input type="text" matInput [matDatepicker]="datepicker" [matDatepickerFilter]="myfilter">
+  <mat-datepicker-toggle matSuffix [for]="datepicker"></mat-datepicker-toggle>
+  <mat-datepicker #datepicker></mat-datepicker>
+</mat-form-field>

@@ -1,0 +1,18 @@
+<mat-form-field>
+  <mat-label>Technology</mat-label>
+  <mat-select [(value)]="selected">
+    <mat-option>None</mat-option>
+    <mat-optgroup label="Web">
+      <mat-option *ngFor="let web of webTechnology" [value]="web.name">
+        {{web.name}}
+      </mat-option>
+    </mat-optgroup>
+    <mat-optgroup label="Mobile">
+      <mat-option *ngFor="let mobile of mobileTechnology" [value]="mobile.name">
+        {{mobile.name}}
+      </mat-option>
+    </mat-optgroup>
+  </mat-select>
+</mat-form-field>
+
+{{selected}}

@@ -1,0 +1,7 @@
+<button mat-raised-button color="primary" (click)="loadData()">Click Me!</button>
+
+<mat-progress-spinner value="100"></mat-progress-spinner>
+
+<mat-spinner *ngIf="showProgress" mode="indeterminate"></mat-spinner>
+
+<mat-progress-bar *ngIf="showProgress" color="primary" mode="query"></mat-progress-bar>

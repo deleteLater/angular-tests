@@ -1,0 +1,23 @@
+<mat-menu #menu>
+  <button mat-menu-item [matMenuTriggerFor]="subMenu">FrontEnd</button>
+  <button mat-menu-item>Backend</button>
+</mat-menu>
+
+<button mat-flat-button [matMenuTriggerFor]="menu">Menu</button>
+
+<mat-menu #subMenu>
+  <button mat-menu-item>Angular</button>
+  <button mat-menu-item>React</button>
+  <button mat-menu-item>Vue</button>
+</mat-menu>
+
+<mat-menu #subLazyMenu>
+  <ng-template matMenuContent let-name="name">
+    <button mat-menu-item>ASP.NET CORE</button>
+    <button mat-menu-item>SPRING</button>
+    <button mat-menu-item>{{name}}</button>
+  </ng-template>
+</mat-menu>
+
+<button [matMenuTriggerFor]="subLazyMenu" [matMenuTriggerData]="{name: 'One'}" mat-flat-button>Lazy-Load-1</button>
+<button [matMenuTriggerFor]="subLazyMenu" [matMenuTriggerData]="{name: 'Two'}" mat-flat-button>Lazy-Load-2</button>
