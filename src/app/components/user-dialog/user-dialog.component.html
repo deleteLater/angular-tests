@@ -1,0 +1,13 @@
+<h1 mat-dialog-title>Row Action :: <strong>{{dto.action}}</strong></h1>
+<div mat-dialog-content>
+  <mat-form-field *ngIf="dto.action != Operation.Delete.toString(); else elseTemplate">
+    <input placeholder="{{dto.action}} Name" matInput [(ngModel)]="dto.user.name" (keyup.enter)="doAction()">
+  </mat-form-field>
+  <ng-template #elseTemplate>
+    Sure to delete <b>{{dto.user.name}}</b>?
+  </ng-template>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="doAction()">{{dto.action}}</button>
+  <button mat-button (click)="closeDialog()" mat-flat-button color="warn">Cancel</button>
+</div>
