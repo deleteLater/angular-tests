@@ -8,3 +8,6 @@ angular tests for study
 [basic-component](https://github.com/deleteLater/angular-tests/tree/mat-components-test)
 
 [mat-table-crud](https://github.com/deleteLater/angular-tests/tree/mat-table-test)
+
+## angular exercise
+[tour-of-heros](https://github.com/deleteLater/angular-tests/tree/tour-of-heros)
