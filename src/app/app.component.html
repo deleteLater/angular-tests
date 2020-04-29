@@ -1,0 +1,13 @@
+<h1>Hello</h1>
+
+<!--<ul>-->
+<!--  <li *ngFor="let hero of heroes">-->
+<!--    {{hero.name}}-->
+<!--  </li>-->
+<!--</ul>-->
+
+<ul>
+  <li *ngFor="let hero of heroes$ | async">
+    {{hero.name}}
+  </li>
+</ul>
