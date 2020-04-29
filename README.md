@@ -13,3 +13,7 @@ angular tests for study
 [tour-of-heros](https://github.com/deleteLater/angular-tests/tree/tour-of-heros)
 
 [fack-backend-in-angular](https://github.com/deleteLater/angular-tests/tree/fack-backend-in-angular)
+
+
+## angular other
+[one-project-combine-multi-sub-projects](https://github.com/deleteLater/angular-tests/tree/one-project-combine-multi-sub-project)
