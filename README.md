@@ -11,3 +11,5 @@ angular tests for study
 
 ## angular exercise
 [tour-of-heros](https://github.com/deleteLater/angular-tests/tree/tour-of-heros)
+
+[fack-backend-in-angular](https://github.com/deleteLater/angular-tests/tree/fack-backend-in-angular)
