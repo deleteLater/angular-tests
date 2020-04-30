@@ -17,3 +17,5 @@ angular tests for study
 
 ## angular other
 [one-project-combine-multi-sub-projects](https://github.com/deleteLater/angular-tests/tree/one-project-combine-multi-sub-project)
+
+[one-project-with-many-apps](https://github.com/deleteLater/angular-tests/tree/one-project-with-many-apps)
