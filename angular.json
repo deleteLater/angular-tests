@@ -227,6 +227,7 @@
           }
         }
       }
-    }},
-  "defaultProject": "gettingStarted"
+    }
+  },
+  "defaultProject": "anotherApp"
 }
